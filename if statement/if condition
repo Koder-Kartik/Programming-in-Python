@@ -1,1 +1,16 @@
+print("Please enter your year of birth")
+birth_year = int(input())
+current_year = 2024
+age = current_year - birth_year
+
+if(age<13):
+  print('You are underage , you ccannot watch this movie')
+  print('wait untill you are old enough to watch this movie')
+
+else:
+      print('You are old enough to watch Avengers,enjoy!')
+      print('Don\'t forget to watch the sequels and prequels.')
+
+print('Have a nice time')
+
 
