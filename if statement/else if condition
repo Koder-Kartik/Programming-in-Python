@@ -8,7 +8,7 @@ if (marks >= 0 and marks <= 100) :
     print ("C")
   elif marks>60 :
     print ("D")
-  elif marks<60:
+  else :
     print ("E")
 
 else : 
